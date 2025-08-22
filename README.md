@@ -9,9 +9,9 @@ ALPACA_BASE_URL   = "https://paper-api.alpaca.markets" # Use live URL for real t
 ALLOWED_CHANNELS  = []  # Your channel’s numeric ID, where you will type commands. You can use RawDataBot to get your channel ID
 
 **Commands Sample -**
-       "BUY <qty> <SYMBOL>"
-       "SELL <SYMBOL>"
-       "SELL <qty> <SYMBOL>"
-       "SELL <SYMBOL> LIMIT <price>"
-       "SELL <qty> <SYMBOL> LIMIT <price>"
-       "PORTFOLIO"
+       BUY qty SYMBOL
+       SELL SYMBOL
+       SELL qty SYMBOL
+       SELL SYMBOL LIMIT price
+       SELL qty SYMBOL LIMIT price
+       PORTFOLIO
